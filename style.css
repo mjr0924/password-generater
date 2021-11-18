@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--bs-cyan);
+}
+button{
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color:var(--bs-cyan) !important;
+}
